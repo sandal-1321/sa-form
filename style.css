@@ -1,0 +1,262 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body
+{
+	background:linear-gradient(180deg,rgba(242,245,20,0.7),rgba(242,166,76,0.7));
+	background-attachment: fixed;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#succ
+{
+
+	background-color: black;
+	border-radius: 30px;
+	width: 200px;
+	height: 220px;
+	padding: 15px;
+	position: absolute;
+	color: white;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	visibility: hidden;
+
+
+}
+#succ h1 
+{
+	padding-left:28px;
+	padding-top:15px;
+}
+#succ img
+{
+	width: 80px;
+	height: 80px;
+	border-radius: 80%;
+	margin-left:38px;
+}
+.ok
+{
+	font-size: 15px;
+	margin: 10px;
+	padding: 6px 9px;
+	cursor: pointer;
+	background-color:rgba(109,233,81,0.7);
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	margin-left:68px;
+	margin-top:15px;
+}
+.header
+{
+	width: 100vw;
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column ;
+	position: relative;
+
+}
+.log
+{
+	margin-bottom:30px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Elephand;
+	box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5),-2px -2px 7px rgba(255,255,255, 0.5);
+	padding: 8px;
+	border-radius: 15px;
+}
+.from
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+    width: 400px;
+   height: 450px;
+   background-color:white;
+   border-radius: 30px;
+   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+
+}
+.formcontrol
+{
+	font-size:15px;
+	font-weight: bold;
+	font-family:perpetua ;
+	margin: 5px 10px;
+}
+.lab
+{
+	font-size: 20px;
+}
+.first
+{
+	font-size:15px;
+	margin: 4px 0px;
+	width: 320px;
+	border: none;
+	border-bottom: 2px solid black;
+	outline: none;
+	background: none;
+
+}
+.subm
+{
+	margin: 25px 0px 10px 0px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 7px;
+	border-radius: 10px;
+	border: none;
+	background:linear-gradient(50deg,rgba(242,245,20,0.7),rgba(242,166,76,0.7));
+	box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+}
+small
+{
+	color: red;
+	visibility: hidden ;
+}
+@media(max-width:  550px)
+{
+	*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body
+{
+	background:linear-gradient(180deg,rgba(216,120,240,0.7),rgba(203,78,214,0.7));
+	background-attachment: fixed;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#succ
+{
+
+	background-color: black;
+	border-radius: 30px;
+	width: 200px;
+	height: 220px;
+	padding: 15px;
+	position: absolute;
+	color: white;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	visibility: hidden;
+	
+
+}
+#succ h1 
+{
+	padding-left:28px;
+	padding-top:15px;
+}
+#succ img
+{
+	width: 80px;
+	height: 80px;
+	border-radius: 80%;
+	margin-left:38px;
+}
+.ok
+{
+	font-size: 15px;
+	margin: 10px;
+	padding: 6px 9px;
+	cursor: pointer;
+	background-color:rgba(109,233,81,0.7);
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	margin-left:68px;
+	margin-top:15px;
+}
+.header
+{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column ;
+
+}
+.log
+{
+	margin-bottom:30px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Elephand;
+		box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5),-2px -2px 7px rgba(255,255,255, 0.5);
+	padding: 8px;
+	border-radius: 15px;
+}
+.from
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+    width: 270px;
+   height: 320px;
+   background-color:white;
+   border-radius: 30px;
+   padding: 10px;
+   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+
+}
+.formcontrol
+{
+	font-size:10px;
+	font-weight: bold;
+	font-family:perpetua ;
+	margin: 1px 6px;
+}
+.lab
+{
+	font-size: 17px;
+}
+.first
+{
+	font-size:15px;
+	margin: 1px 0px;
+	width: 230px;
+	border: none;
+	border-bottom: 2px solid black;
+	outline: none;
+	background: none;
+
+}
+.subm
+{
+	margin: 17px 0px 10px 0px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 7px;
+	border-radius: 10px;
+	border: none;
+	background:linear-gradient(180deg,rgba(247,66,219,0.7),rgba(212,122,238,0.7));
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+}
+small
+{
+	color: red;
+	visibility: hidden ;
+	font-size: 13px;
+}
+}
